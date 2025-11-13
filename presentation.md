@@ -36,4 +36,3 @@ Filters let users drill down by team, type, assignee, status, and date range.
 
 ![Details](photos/page2.png)
 
-This pa
