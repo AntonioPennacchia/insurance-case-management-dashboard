@@ -35,7 +35,3 @@ This enables performance tracking, workload balancing, and improved understandin
 - **Power BI and Excel Versions**  
   The dashboard is available in both formats for maximum usability.
 
----
-
-## 📁 Repository Structure
-
