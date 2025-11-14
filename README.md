@@ -1,14 +1,31 @@
-# 📊 Insurance Assignments Monitoring  
-### Case Study – Dashboard Presentation
+# 📊 Insurance Assignments Monitoring Dashboard  
+### Case Study & Interactive Reporting
 
-This dashboard provides a complete and interactive overview of insurance case activities.  
-It has been designed to help teams monitor workload, track pending cases, and assess operational efficiency.
+This repository contains a Business Intelligence dashboard designed to monitor and analyze insurance case management activities.  
+The solution provides a clear and interactive view of backlog trends, assignment details, team performance, and workload distribution.
+
+The dashboard is available in both Power BI (.pbix) and Excel formats and includes interactive navigation elements and an information panel that enhances user experience.
+
+---
+
+## 🎯 Objectives of the Dashboard
+
+The dashboard was developed to support insurance operations teams in:
+
+- **Monitoring the backlog** of pending assignments over the last nine weeks  
+- **Analyzing open and closed cases** by team and by employee  
+- **Tracking workload trends and operational performance**  
+- **Identifying bottlenecks** and possible areas for improvement  
+- **Navigating efficiently** through pages thanks to custom-designed buttons  
+- **Understanding dashboard metrics** through a dedicated on-page **Information Panel**  
+
+It is both a functional operational tool and an example of clean, professional BI design.
 
 ---
 
 ## 🏠 Home Page
 
-The home page offers a clean introduction to the case study and provides quick access to the two core sections of the report through interactive buttons.
+The Home Page introduces the case study and lets the user access the two main areas of the report through intuitive navigation buttons.
 
 ![Home](photos/homepage.png)
 
@@ -16,23 +33,42 @@ The home page offers a clean introduction to the case study and provides quick a
 
 ## 📌 Backlog Monitoring (Last 9 Weeks)
 
-This section focuses on the backlog of pending assignments, categorized by aging buckets.  
-Users can analyze trends week by week and identify delays or workload peaks.
+The first section focuses on the **weekly backlog trend**, showing how many assignments remained pending at the end of each week, categorized by delay range.
 
 ![Backlog](photos/page1.png)
 
-Key insights include:
-- Backlog evolution across nine weeks  
-- Aging analysis (0–7 days, 8–15 days, 15–30 days, 31–60 days, >60 days)  
-- Workload progression line chart  
-- Breakdown tables with percentage values  
+### Key insights include:
+- Total backlog per week  
+- Aging categories (0–7, 8–15, 15–30, 31–60, >60 days)  
+- Trend line highlighting backlog evolution  
+- Percentage-based breakdown table  
+- Filters by team, type, and assigned employee  
 
 ---
 
 ## 👥 Team & Employee Details
 
-The second section allows deeper exploration of both **open** and **closed** assignments.  
-Filters let users drill down by team, type, assignee, status, and date range.
+The second section provides a detailed view of **active and completed assignments**, allowing users to analyze workloads at both team and individual level.
 
 ![Details](photos/page2.png)
 
+### Features:
+- Assignments per team and per employee  
+- Drill-down enabled bar charts  
+- Global filters: date range, team, type, assigned user, status  
+- Detailed table with assignment metadata (start date, end date, type, team, status)  
+
+---
+
+## 🧭 Interaction & UX Features
+
+The dashboard includes several improvements to ensure smooth navigation and clarity:
+
+### 🔹 Custom Navigation Buttons  
+Enable fast movement between pages without using the default Power BI interface.
+
+### 🔹 Information Panel (Info Button)  
+A dedicated **info button** opens an overlay panel that dims the dashboard and shows contextual explanations.  
+This helps the user understand metrics, filters, and visualizations without leaving the page.
+
+![Info Panel](photos/infopanel.png)
